@@ -14,7 +14,6 @@ def gonder(email,sifre):
 
 file_name = input("Email Ve Şifrenin Çekileceği Dosya İsmini Giriniz: ")
 a = open(file_name, mode="r").readlines()
-sayi1 = 0
 for i in a:
     cut = i.split(":")
     try:
