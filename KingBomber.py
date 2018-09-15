@@ -1,7 +1,7 @@
 import yagmail, threading
-to=input("Hedef Mail'i Giriniz: ")
-subject=input("Konuyu Giriniz: ")
-contents=input("Mesaj İçeriğini Giriniz: ")
+to = input("Hedef Mail'i Giriniz: ")
+subject = input("Konuyu Giriniz: ")
+contents = input("Mesaj İçeriğini Giriniz: ")
 def gonder(email,sifre):
     sayi1 = 0
     mail = yagmail.SMTP(email, sifre)
